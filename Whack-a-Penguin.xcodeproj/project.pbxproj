@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		2D5D7647225278E500135F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D7646225278E500135F39 /* AppDelegate.swift */; };
 		2D5D7649225278E500135F39 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D7648225278E500135F39 /* GameScene.sks */; };
-		2D5D764B225278E500135F39 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D764A225278E500135F39 /* Actions.sks */; };
 		2D5D764D225278E500135F39 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D764C225278E500135F39 /* GameScene.swift */; };
 		2D5D764F225278E500135F39 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D764E225278E500135F39 /* GameViewController.swift */; };
 		2D5D7652225278E500135F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D7650225278E500135F39 /* Main.storyboard */; };
 		2D5D7654225278E600135F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D7653225278E600135F39 /* Assets.xcassets */; };
 		2D5D7657225278E600135F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D7655225278E600135F39 /* LaunchScreen.storyboard */; };
+		2D5D765F2252798700135F39 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D765E2252798600135F39 /* WhackSlot.swift */; };
+		2D5D766222527A9F00135F39 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D766022527A9F00135F39 /* whack.caf */; };
+		2D5D766322527A9F00135F39 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D766122527A9F00135F39 /* whackBad.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D5D7643225278E500135F39 /* Whack-a-Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5D7646225278E500135F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D5D7648225278E500135F39 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		2D5D764A225278E500135F39 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2D5D764C225278E500135F39 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2D5D764E225278E500135F39 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2D5D7651225278E500135F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D5D7653225278E600135F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5D7656225278E600135F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5D7658225278E600135F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5D765E2252798600135F39 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		2D5D766022527A9F00135F39 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		2D5D766122527A9F00135F39 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +66,15 @@
 			children = (
 				2D5D7646225278E500135F39 /* AppDelegate.swift */,
 				2D5D7648225278E500135F39 /* GameScene.sks */,
-				2D5D764A225278E500135F39 /* Actions.sks */,
 				2D5D764C225278E500135F39 /* GameScene.swift */,
 				2D5D764E225278E500135F39 /* GameViewController.swift */,
+				2D5D765E2252798600135F39 /* WhackSlot.swift */,
 				2D5D7650225278E500135F39 /* Main.storyboard */,
 				2D5D7653225278E600135F39 /* Assets.xcassets */,
 				2D5D7655225278E600135F39 /* LaunchScreen.storyboard */,
 				2D5D7658225278E600135F39 /* Info.plist */,
+				2D5D766022527A9F00135F39 /* whack.caf */,
+				2D5D766122527A9F00135F39 /* whackBad.caf */,
 			);
 			path = "Whack-a-Penguin";
 			sourceTree = "<group>";
@@ -132,10 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D5D7652225278E500135F39 /* Main.storyboard in Resources */,
+				2D5D766222527A9F00135F39 /* whack.caf in Resources */,
 				2D5D7649225278E500135F39 /* GameScene.sks in Resources */,
 				2D5D7654225278E600135F39 /* Assets.xcassets in Resources */,
 				2D5D7657225278E600135F39 /* LaunchScreen.storyboard in Resources */,
-				2D5D764B225278E500135F39 /* Actions.sks in Resources */,
+				2D5D766322527A9F00135F39 /* whackBad.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 			files = (
 				2D5D764D225278E500135F39 /* GameScene.swift in Sources */,
 				2D5D764F225278E500135F39 /* GameViewController.swift in Sources */,
+				2D5D765F2252798700135F39 /* WhackSlot.swift in Sources */,
 				2D5D7647225278E500135F39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,10 +309,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michelegalvagno.Whack-a-Penguin";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelegalvagno.whackapenguin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -319,10 +327,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michelegalvagno.Whack-a-Penguin";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelegalvagno.whackapenguin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
