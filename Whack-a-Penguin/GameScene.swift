@@ -96,6 +96,16 @@ class GameScene: SKScene {
             gameOver.zPosition = 1
             addChild(gameOver)
             
+            run(SKAction.playSoundFileNamed("GameOver.m4a", waitForCompletion: false))
+            
+            gameScore.isHidden = true
+            
+            let finalScore = SKLabelNode(fontNamed: "Chalkduster")
+            finalScore.text = "Your final score is \(score)!"
+            finalScore.position = CGPoint(x: 512, y: 312)
+            finalScore.zPosition = 1
+            addChild(finalScore)
+            
             return
         }
         

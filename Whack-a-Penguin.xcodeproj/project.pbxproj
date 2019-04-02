@@ -17,6 +17,9 @@
 		2D5D765F2252798700135F39 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D765E2252798600135F39 /* WhackSlot.swift */; };
 		2D5D766222527A9F00135F39 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D766022527A9F00135F39 /* whack.caf */; };
 		2D5D766322527A9F00135F39 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D766122527A9F00135F39 /* whackBad.caf */; };
+		2D5D76652253527300135F39 /* GameOver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D76642253527300135F39 /* GameOver.m4a */; };
+		2D5D7667225389FD00135F39 /* smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D7666225389FD00135F39 /* smoke.sks */; };
+		2D5D766F2253937600135F39 /* mud.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D766E2253937600135F39 /* mud.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		2D5D765E2252798600135F39 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		2D5D766022527A9F00135F39 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		2D5D766122527A9F00135F39 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		2D5D76642253527300135F39 /* GameOver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameOver.m4a; sourceTree = "<group>"; };
+		2D5D7666225389FD00135F39 /* smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoke.sks; sourceTree = "<group>"; };
+		2D5D766E2253937600135F39 /* mud.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = mud.sks; path = ../../../../../../Downloads/mud.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +75,15 @@
 				2D5D764C225278E500135F39 /* GameScene.swift */,
 				2D5D764E225278E500135F39 /* GameViewController.swift */,
 				2D5D765E2252798600135F39 /* WhackSlot.swift */,
+				2D5D7666225389FD00135F39 /* smoke.sks */,
+				2D5D766E2253937600135F39 /* mud.sks */,
 				2D5D7650225278E500135F39 /* Main.storyboard */,
 				2D5D7653225278E600135F39 /* Assets.xcassets */,
 				2D5D7655225278E600135F39 /* LaunchScreen.storyboard */,
 				2D5D7658225278E600135F39 /* Info.plist */,
 				2D5D766022527A9F00135F39 /* whack.caf */,
 				2D5D766122527A9F00135F39 /* whackBad.caf */,
+				2D5D76642253527300135F39 /* GameOver.m4a */,
 			);
 			path = "Whack-a-Penguin";
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 				2D5D766222527A9F00135F39 /* whack.caf in Resources */,
 				2D5D7649225278E500135F39 /* GameScene.sks in Resources */,
 				2D5D7654225278E600135F39 /* Assets.xcassets in Resources */,
+				2D5D76652253527300135F39 /* GameOver.m4a in Resources */,
 				2D5D7657225278E600135F39 /* LaunchScreen.storyboard in Resources */,
+				2D5D766F2253937600135F39 /* mud.sks in Resources */,
 				2D5D766322527A9F00135F39 /* whackBad.caf in Resources */,
+				2D5D7667225389FD00135F39 /* smoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
